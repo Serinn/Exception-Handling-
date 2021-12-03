@@ -30,11 +30,11 @@ public class Adapter implements Protocol {
 		return false;
 	}
 
-	/*@Override
+	@Override
 	public void send(String message) {
 		if(tftpLegcy != null) {
 			tftpLegcy.sendMessage(message);
 		}
-	}*/
+	}
 
 }
